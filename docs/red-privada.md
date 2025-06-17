@@ -97,7 +97,7 @@ tailscale ip -4
 ```bash
 ssh usuario@100.x.x.x -p 22
 ```
-##### Panel de Administración web de Tailscale
+#### 🤖 Panel de Administración web de Tailscale
 
 Podemos acceder al panel de administración a través de: [https://login.tailscale.com/admin/machines](https://login.tailscale.com/admin/machines)
 
