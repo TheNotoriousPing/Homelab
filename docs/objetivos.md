@@ -36,6 +36,7 @@
   - 📱 Soporte para dispositivos múltiples
 
 > 📎 Para la guía completa, consulta [red-privada](red-privada.md)
+
 ---
 
 ## 3. 🚫 Bloqueo de Publicidad y DNS Local
