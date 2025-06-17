@@ -5,17 +5,12 @@
 1. **Descarga de Armbian**  
    Ve a la [página oficial de Armbian](https://www.armbian.com/orangepi3b/) y descarga la imagen basada en Debian Bookworm para la Orange Pi 3B (v2.1).
 
-   <div style="text-align: center;">
-      <img src="../img/primeros-pasos/armbian.png" alt="Texto alternativo" width="400"/>
-   </div> 
-
+   ![Texto alternativo](img/primeros-pasos/armbian.png)
 
 2. **Grabación de la imagen**  
    Utiliza una herramienta como Balena Etcher o Raspberry Pi Imager para grabar la imagen en una tarjeta microSD (recomendado mínimo 16GB, clase 10).
-
-   <div style="text-align: center;">
-      <img src="../img/primeros-pasos/balena.png" alt="Texto alternativo" width="400"/>
-   </div> 
+   
+   ![Texto alternativo](img/primeros-pasos/balena.png)
 
 
 3. **Primer arranque**  
@@ -37,9 +32,7 @@
 
    Añade o edita el contenido para asignar una IP fija (ajusta la IP según tu red):
 
-<div style="text-align: center;">
-   <img src="../img/primeros-pasos/ip-fija.png" alt="Texto alternativo" width="600"/>
-</div>   
+   ![Texto alternativo](img/primeros-pasos/ip-fija.png)
 
    Guarda y cierra el archivo.
 
@@ -88,9 +81,7 @@
    PubkeyAuthentication yes
    ```
 
-<div style="text-align: center;">
-   <img src="img/primeros-pasos/ssh.png" alt="Texto alternativo" width="300"/>
-</div>   
+   ![Texto alternativo](img/primeros-pasos/ssh.png) 
 
 
 
