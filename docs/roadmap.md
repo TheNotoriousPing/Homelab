@@ -7,29 +7,29 @@ Definir una hoja de ruta clara, estructurada y práctica para la implementación
 
 ## 🚀 Fase 1: Preparación del Hardware y Sistema Base
 
-- [ ] Recepción y montaje de la **Orange Pi 3B**  
-- [ ] Instalación de **Armbian** y actualización completa del sistema  
-- [ ] Configuración de usuario seguro y acceso **SSH**  
-- [ ] Configuración básica de firewall (**UFW** o **iptables**)  
+- [✅] Recepción y montaje de la **Orange Pi 3B**  
+- [✅] Instalación de **Armbian** y actualización completa del sistema  
+- [✅] Configuración de usuario seguro y acceso **SSH**  
+- [✅] Configuración básica de firewall (**UFW** o **iptables**)  
 - [ ] Documentación detallada de la configuración inicial  
 
 ---
 
 ## 🌐 Fase 2: Configuración de Red Privada
 
-- [ ] Evaluar opciones: **Tailscale** vs **ZeroTier**  
-- [ ] Instalación y configuración de **Tailscale** (recomendado para empezar)  
-- [ ] Pruebas de conectividad entre viviendas  
-- [ ] Documentar configuración y resultados  
+- [✅] Evaluar opciones: **Tailscale** vs **ZeroTier**  
+- [✅] Instalación y configuración de **Tailscale** (recomendado para empezar)  
+- [✅] Pruebas de conectividad entre viviendas  
+- [✅] Documentar configuración y resultados  
 
 ---
 
 ## 🛡️ Fase 3: DNS Local y Bloqueo de Publicidad
 
-- [ ] Instalación de **Pi-hole**  
+- [✅] Instalación de **Pi-hole**  
 - [ ] (Opcional) Configuración de **Unbound** como DNS recursivo privado  
-- [ ] Configurar dispositivos para usar Pi-hole como DNS principal  
-- [ ] Documentar configuración y personalizaciones  
+- [✅] Configurar dispositivos para usar Pi-hole como DNS principal  
+- [✅] Documentar configuración y personalizaciones  
 
 ---
 
@@ -45,17 +45,17 @@ Definir una hoja de ruta clara, estructurada y práctica para la implementación
 
 ## 📊 Fase 5: Monitorización del Sistema y Servicios
 
-- [ ] Instalar **Netdata** para monitorización en tiempo real  
-- [ ] Instalar **Uptime Kuma** para supervisión de servicios  
-- [ ] Configurar alertas y notificaciones personalizadas  
+- [✅] Instalar **Netdata** para monitorización en tiempo real  
+- [✅] Instalar **Uptime Kuma** para supervisión de servicios  
+- [✅] Configurar alertas y notificaciones personalizadas  
 - [ ] Documentar configuración y mejores prácticas  
 
 ---
 
 ## 🔐 Fase 6: Seguridad Proactiva
 
-- [ ] Instalar **CrowdSec** para detección y mitigación de amenazas  
-- [ ] (Opcional) Instalar **Fail2Ban** para protección específica (ej. SSH)  
+- [✅] Instalar **CrowdSec** para detección y mitigación de amenazas  
+- [✅] (Opcional) Instalar **Fail2Ban** para protección específica (ej. SSH)  
 - [ ] Configurar firewall avanzado y políticas de acceso estrictas  
 - [ ] Documentar políticas y procedimientos de seguridad  
 
