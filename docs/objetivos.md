@@ -1,16 +1,30 @@
 # 🎯 Objetivos del Homelab
 
 ## 📋 Índice
-1. [🌐 Red Privada entre dos viviendas](#1-red-privada-entre-dos-viviendas)  
-2. [🚫 Bloqueo de Publicidad y DNS Local](#2-bloqueo-de-publicidad-y-dns-local)  
-3. [📹 Cámaras IP y CCTV](#3-cámaras-ip-y-cctv)  
-4. [📊 Monitorización del Sistema](#4-monitorización-del-sistema)  
-5. [🛡️ Seguridad Proactiva](#5-seguridad-proactiva)  
-6. [📈 SIEM Básico](#6-siem-básico)  
+1. [🚶‍♂️ Pasos previos para comenzar](#1-primeros-pasos)  
+2. [🌐 Red Privada entre dos viviendas](#2-red-privada-entre-dos-viviendas) 
+3. [🚫 Bloqueo de Publicidad y DNS Local](#3-bloqueo-de-publicidad-y-dns-local)  
+4. [📹 Cámaras IP y CCTV](#4-cámaras-ip-y-cctv)   
+5. [📊 Monitorización del Sistema](#5-monitorización-del-sistema)
+6. [🛡️ Seguridad Proactiva](#6-seguridad-proactiva)  
+7. [📈 SIEM Básico](#7-siem-básico)  
 
 ---
+## 1. 🚶‍♂️ Pasos previos para comenzar
 
-## 1. 🌐 Red Privada entre dos viviendas
+**Objetivo:** Preparar la Orange Pi 3B con Armbian, IP fija y acceso remoto seguro por SSH.
+
+- **Sistema base:** Armbian (Debian Bookworm)  
+- **Acceso remoto:** SSH con clave pública  
+- **Requisitos:**  
+  - 💾 Tarjeta microSD ≥ 16GB  
+  - 🌐 IP estática configurada  
+  - 🔐 SSH por clave y puerto personalizado
+
+> 📎 Para la guía completa, consulta [primeros-pasos](primeros-pasos.md)
+
+
+## 2. 🌐 Red Privada entre dos viviendas
 
 **Objetivo:** Establecer una red privada segura que conecte dos ubicaciones físicas como si compartieran el mismo router, incluso cuando están detrás de CG-NAT.
 
@@ -21,9 +35,10 @@
   - ⚙️ Facilidad de configuración y mantenimiento  
   - 📱 Soporte para dispositivos múltiples
 
+> 📎 Para la guía completa, consulta [red-privada](red-privada.md)
 ---
 
-## 2. 🚫 Bloqueo de Publicidad y DNS Local
+## 3. 🚫 Bloqueo de Publicidad y DNS Local
 
 **Objetivo:** Controlar y filtrar consultas DNS para bloquear publicidad, rastreadores y mejorar la privacidad de la red local.
 
@@ -34,9 +49,11 @@
   - 🔐 Resolución DNS local y segura  
   - 🛠️ Gestión centralizada de listas negras y blancas
 
+> 📎 Para la guía completa, consulta [DNS Pi-hole](dns-pihole.md)
+
 ---
 
-## 3. 📹 Cámaras IP y CCTV
+## 4. 📹 Cámaras IP y CCTV
 
 **Objetivo:** Centralizar el acceso y gestión de cámaras IP (RTSP) y cámaras analógicas mediante DVR.
 
@@ -47,9 +64,11 @@
   - 💾 Grabación y almacenamiento local o en red  
   - 🔒 Acceso remoto seguro
 
+> 📎 Para la guía completa, consulta [CCTV](cctv.md)
+
 ---
 
-## 4. 📊 Monitorización del Sistema
+## 5. 📊 Monitorización del Sistema
 
 **Objetivo:** Supervisar el estado y métricas del sistema para detectar anomalías y asegurar el correcto funcionamiento.
 
@@ -61,9 +80,11 @@
   - 🔔 Alertas configurables  
   - 📈 Histórico de datos
 
+> 📎 Para la guía completa, consulta [Monitorización](monitorizacion.md)
+
 ---
 
-## 5. 🛡️ Seguridad Proactiva
+## 6. 🛡️ Seguridad Proactiva
 
 **Objetivo:** Detectar y prevenir ataques o actividades sospechosas en la red y sistemas.
 
@@ -75,9 +96,11 @@
   - 🚫 Bloqueo automático de IPs maliciosas  
   - 🔗 Integración con otras herramientas de seguridad
 
+> 📎 Para la guía completa, consulta [Seguridad](seguridad.md)
+
 ---
 
-## 6. 📈 SIEM Básico
+## 7. 📈 SIEM Básico
 
 **Objetivo:** Implementar un sistema básico de gestión de eventos e información de seguridad para recopilar, analizar logs y generar alertas.
 
@@ -87,5 +110,7 @@
   - 🗄️ Centralización y normalización de logs  
   - 🤖 Análisis automatizado y alertas  
   - 📊 Paneles de control personalizables
+
+> 📎 Para la guía completa, consulta [SIEM](siem.md)
 
 ---
