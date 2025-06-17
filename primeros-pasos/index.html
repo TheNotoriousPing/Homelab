@@ -631,12 +631,12 @@
 <li><strong>Descarga de Armbian</strong><br />
    Ve a la <a href="https://www.armbian.com/orangepi3b/">página oficial de Armbian</a> y descarga la imagen basada en Debian Bookworm para la Orange Pi 3B (v2.1).</li>
 </ol>
-<p><img alt="Texto alternativo" src="img/armbian.png" /></p>
+<p><img alt="Texto alternativo" src="../img/armbian.png" /></p>
 <ol>
 <li><strong>Grabación de la imagen</strong><br />
    Utiliza una herramienta como Balena Etcher o Raspberry Pi Imager para grabar la imagen en una tarjeta microSD (recomendado mínimo 16GB, clase 10).</li>
 </ol>
-<p><img alt="Texto alternativo" src="img/balena.png" /></p>
+<p><img alt="Texto alternativo" src="../img/balena.png" /></p>
 <ol>
 <li><strong>Primer arranque</strong><br />
    Inserta la microSD en la Orange Pi 3B y conéctala a la corriente. Espera a que el sistema arranque. El usuario por defecto suele ser <code>root</code> o <code>armbian</code>, consulta la documentación de Armbian para confirmar.</li>
@@ -656,7 +656,7 @@
 <p><code>sh
    sudo nano /etc/netplan/10-dhcp-all-interfaces.yaml</code></p>
 <p>Añade o edita el contenido para asignar una IP fija (ajusta la IP según tu red):</p>
-<p><img alt="Texto alternativo" src="img/ip-fija.png" /></p>
+<p><img alt="Texto alternativo" src="../img/ip-fija.png" /></p>
 <p>Guarda y cierra el archivo.</p>
 <ol>
 <li><strong>Reinicia la interfaz de red</strong>  </li>
@@ -687,7 +687,7 @@
    Verifica que esta línea esté presente y sin comentar:</li>
 </ol>
 <p><code>PubkeyAuthentication yes</code></p>
-<p><img alt="Texto alternativo" src="img/ssh.png" /> </p>
+<p><img alt="Texto alternativo" src="../img/ssh.png" /> </p>
 <ol>
 <li><strong>Copiar tu clave pública al Orange Pi</strong><br />
    Desde tu máquina cliente (donde tienes la clave privada), ejecuta:</li>
